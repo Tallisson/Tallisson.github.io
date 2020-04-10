@@ -1,0 +1,17 @@
+@charset "utf-8";
+.top-hider {
+	overflow: hidden;
+}
+.top-hider::after {
+	content: '';
+	clear: both;
+}
+#logo {
+  font-size: 150%;
+	text-decoration: none;
+}
+footer {
+	width: 100%;
+	position: absolute;
+  bottom: 0;
+}

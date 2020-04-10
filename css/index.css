@@ -15,3 +15,6 @@ footer {
 	position: absolute;
   bottom: 0;
 }
+.list-footer {
+	list-style: none;
+}

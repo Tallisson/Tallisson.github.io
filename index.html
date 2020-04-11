@@ -1,109 +1,580 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-		<title>Thiago Allisson - Portfólio</title>
-		<meta charset="utf8">
-		<meta name="viewport" content="width=device-width">
-		
-		<link href="css/index.css" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	</head>
-	<body>
-		<!-- Content -->
-		<div id="content">
-			<!-- Header -->
-			<header>
-				<div class="bg-primary container-fluid py-2 text-light" id="top-header">
-					<section class="float-right my-auto" id="social-network">
-						<a class="btn btn-success rounded-circle" role="button">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-						</a>
-						<a class="btn btn-success rounded-circle" role="button">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-						</a>
-						<a class="btn btn-success rounded-circle" role="button">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-						</a>
-					</section>
-					<section class="my-auto">
-						<a href="index.html" class="text-light" id="logo">
-							<i class="fa fa-link" aria-hidden="true"></i>
-							Portfólio
-						</a>
-					</section>				
-				</div>
-			</header>
+<html lang="en">
 
-			<!-- Main -->
-			<div class="container-fluid my-2" id="main">
-				<div class="card card-body">
-					<div class="card-title text-center">
-						Veja os projetos desenvolvidos
-					</div>
-					<div class="card-text">
-						<ul>
-							<li>Web</li>
-							<li>Mobile</li>
-							<li>Desktop</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+<head>
 
-			<!-- Footer -->
-			<footer class="bg-success container-fluid pt-4 mt-2">
-				<div class="row mx-2">
-					<div class="my-auto col-sm-4 pl-4">
-						<h4>
-							<i class="fa fa-link" aria-hidden="true"></i>
-							Portfólio
-						</h4>
-					</div>
-					<div class="col-sm-4">
-						<h5 class="pl-4">
-							<i class="fa fa-location-arrow" aria-hidden="true"></i>
-							Localização
-						</h5>
-						<ul class="list-footer">
-							<li>Caxias - Maranhão</li>
-							<li>1ª Travessa São José, 114 - Bairro Trezidela</li>
-						</ul>
-					</div>
-					<div class="col-sm-4">
-						<h5 class="pl-4">
-							<i class="fa fa-address-book" aria-hidden="true"></i>
-							Contatos
-						</h5>
-						<ul class="list-footer">
-							<li>
-								<i class="fa fa-phone-square" aria-hidden="true"></i>
-								(99)98135-1734
-							</li>
-							<li>
-								<i class="fa fa-envelope" aria-hidden="true"></i>	
-								allissonribeiro02@gmail.com
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="text-center">
-					<p style="font-size: 78%;">
-						@2020 Copyright - Thiago Allisson R. da Silva - Todos os direitos reservados.
-					</p>
-				</div>				
-			</footer>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-			<!-- Deep Link Zap -->
-			<a id="whatsapp-bubble" href="https://wa.me/5599981351734?text" 
-				style=" position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
-				z-index:1000;" target="_blank">
-				<i style="margin-top:16px" class="fa fa-whatsapp"></i>
-			</a>
-		</div>
-		<script src="js/jquery.min.js" type="text/javascript"></script>
-		<script src="js/popper.min.js" type="text/javascript"></script>
-		<script src="js/bootstrap.min.js" type="text/javascript"></script>
-		<script type="text/javascript"></script>
-	</body>
+  <title>Thiago Allisson - Portifólio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="container-fluid">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger text-success" href="#page-top">Thiago Allisson</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Bem vindo ao meu Portifólio!</div>
+        <div class="intro-heading text-uppercase">Prazer em conhecer você!</div>
+        <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#services">Me Conte Mais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Serviços</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Back-end</h4>
+          <p class="text-muted">Processamento de dados, integração com banco de dados, APIs Restful.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Front-End</h4>
+          <p class="text-muted">Criação de Interfaces usando HTML, CSS, Javascript e Bootstrap; Integração com webservices.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-mobile fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Mobile</h4>
+          <p class="text-muted">Criação de aplicações Nativas usando React Native com ReactJS e integração de webservices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Portfólio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Front-End</h4>
+            <p class="text-muted">ReactJS, Node.js</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema FrontEnd</h4>
+            <p class="text-muted">Angular 8, JAVA</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema BackEnd</h4>
+            <p class="text-muted">API RestFull, JAVA</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Mobile</h4>
+            <p class="text-muted">Node.js, React Native, ReactJS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Front-End</h4>
+            <p class="text-muted">ReactJS, Node.js</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Back-End</h4>
+            <p class="text-muted">API RestFull, Node.js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Sobre</h2>
+          <h3 class="section-subheading text-muted">Cientista da Computação e Engenheira de Software</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2008-2012</h4>
+                  <h4 class="subheading">Graduação</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Graduação em Ciências da Computação pela Universidade Estadual do Piauí</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2013-2014</h4>
+                  <h4 class="subheading">Analista de Sistemas e Desenvolvedor na FAPEPI</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Desenvolvimento e manutenção de software instucional da Fundação de Amparo a Pesquisa do Piauí,
+                    e Manutenção e Suporte de Computadores.
+                    Tecnologias: Java, PHP, HTML, CSS, JavaScript, ​Hibernate, MySQL, Bootstrap, Git, ...</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2014-2016</h4>
+                  <h4 class="subheading">Analista de Sistemas e Mestrado em Computação Aplicada</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Desenvolvimento e manutenção de sistemas.
+                    Mestrado em Ciência da Computação pela Universidade Federal do Piauí.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2016-2019</h4>
+                  <h4 class="subheading">Professor Assistente UniFacema e Desenvolvedor</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Professor do curso de Análise de Sistemas no Centro Universitário de Ciência e Tecnologia do Maranhão (Caxias-MA).
+                    Continuando minha jornada na programação.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Hoje</h4>
+                  <h4 class="subheading">Professor Assistente IFMA e Desenvolvedor Web Full Stack, Mobile e Desktop</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Professor do Curso de Técnico em Informática do Instituto Federal do Maranhão, campus Barra do Corda.
+                    Continuando minha jornada pela programação.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Faça Parte
+                  <br>da Minha
+                  <br>História!</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light page-section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="" alt="">
+            <h4>Thiago Allisson</h4>
+            <p class="text-muted">Programador, Professor e Cientista da Computação</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/profile.php?id=100001241292628">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/thiago-allisson-rsilva/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+		  <span class="copyright">Copyright &copy; Thiago Allisson 2020. </span>
+		  
+        </div>
+        <div class="col-md-4">
+          Muito prazer!
+        </div>
+        <div class="col-md-4">
+          <p>
+            <i class="fa fa-phone" aria-hidden="true"></i> (99)98135-1734 <br>
+            <i class="fa fa-envelope" aria-hidden="true"></i> allissonribeiro02@gmail.com <br>
+            <i class="fa fa-envelope" aria-hidden="true"></i> thiago.ribeiro@ifma.edu.br 
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">AirCnc</h2>
+                <p class="item-intro text-muted">Projeto em ReactJS e React Native</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Aplicação onde Empresas podem alocar espaço e infraestrutura para programadores. Os programadores podem agendar uma data para a visita.</p>
+                <ul class="list-inline">
+                  <li>Data: Fevereiro 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/AirCnc">React</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Front-End</h2>
+                <p class="item-intro text-muted">Projeto em Angular</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Esse projeto possui: Cadastros, Listagens, Atualizações e Remoções de usuários. Utilizando tecnologias Spring, Rest, Angular 8, assim como, serviços de seguraça, como o JWT, para autentição no sistema</p>
+                <ul class="list-inline">
+                  <li>Data: Outubro 2019</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Spring-api-rest-frontend">Angular Spring</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Back-End</h2>
+                <p class="item-intro text-muted">Projeto em Java</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Esse projeto possui: Cadastros, Listagens, Atualizações e Remoções de usuários. Utilizando tecnologias Spring, Rest, assim como, serviços de seguraça, como o JWT, para autentição no sistema</p>
+                <ul class="list-inline">
+                  <li>Data: Outubro 2019</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Spring-API-REST">Spring API</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Mobile</h2>
+                <p class="item-intro text-muted">Projeto de Ajuda a ONGs</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Esse projeto possui: Listagem de Casos cadastrados pelas ONGs e o usuário pode escolher qual ajudar. Usa as tecnologias Node.js, ReactJS, e React Native. É alimentado por uma API própria e integrado com Front-End ambos listados no portfólio</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">React Native</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Front-End</h2>
+                <p class="item-intro text-muted">Be The Hero</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Esse projeto possui: Cadastros e Listagens de ONGs e de casos para serem ajudados. Integrado com a API própria desenvolvida em node.js e com a parte Mobile, listada no portfólio.</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">ReactJS</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Back-End</h2>
+                <p class="item-intro text-muted">Be The Hero</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p>Esse projeto é uma Api com: Cadastros e Listagens de ONGs e de casos para serem ajudados. Integrado com Front-End desenvolvida em ReactJS e com a parte Mobile, listada no portfólio.</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">Node.JS</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
 </html>
